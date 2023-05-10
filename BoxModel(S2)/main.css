@@ -1,0 +1,95 @@
+/* Here you write Css Rules, A rule is one which has a selector, property and Value */
+
+* {
+    box-sizing: border-box;
+}
+
+body { /* Inheritence has lowest Specifity */
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+#product-overview { /* ID Selector */
+    background: url("freedom.jpg");
+    width: 100%;
+    height: 528px;
+    padding: 10px;
+    /* border: 5px black solid; Can also write this shorthand in long forms */
+}
+
+.section-title {
+    color: #2ddf5c;
+    /* font-family: inherit; This isn't a good way, as then for adding this style to any other element we will have to explicitely mention this proporty everywhere we want */
+}
+
+/* Combinators can solve problem by letting us mention the exact element we want to apply a Specific Style */
+#product-overview h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+.main-header {
+    background-color: #2ddf5c;
+    padding: 10px;
+    width: 100%;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand {
+    color: #0d4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 74px);
+    vertical-align: middle;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #0e4f1f;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 16px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.main-nav__item a:hover, 
+.main-nav__item a:active {
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+.main-nav__item--cta a {
+    color: white;
+    background-color: #ff1b68;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    color: #ff1b68;
+    background: white;
+    border: none;
+}
+
+
+
