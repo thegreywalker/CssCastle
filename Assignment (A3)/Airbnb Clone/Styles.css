@@ -1,0 +1,253 @@
+*, html, body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav {
+    width: 100%;
+    height: 70px;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.nav__logo svg {
+    height: 40px;
+    color: rgb(255, 65, 97);
+}
+
+.nav__search {
+    display: flex;
+    width: 340px;
+    height: 65%;
+    align-items: center;
+    border-radius: 30px;
+    gap: 5px;
+    padding-left: 8px;
+    justify-content: space-evenly;
+    border: 1px solid lightgray;
+    margin-right: 0px;
+}
+
+.nav__search__left-pane {
+    display: flex;
+    width: 90%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav__search__child-1,
+.nav__search__child-2,
+.nav__search__child-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    border-right: 1.5px solid lightgray;
+    height: 55%;
+    width: 30%;
+    font-size: 14px;
+}
+
+.nav__search__child-3 {
+    border: none;
+    font-weight: 100;
+}
+
+.nav__search__container {
+    margin-right: 0px;
+    background-color: rgb(255, 65, 97);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 5px;
+}
+
+.nav__right-pane {
+    display: flex;
+    width: 23%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__hero-text {
+    font-size: 14px;
+}
+
+
+.nav__profile-section {
+    display: flex;
+    width: 80px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.nav__hamburger{
+    width: 16px;
+    height: 16px;
+}
+
+.nav__profile {
+    width: 25px;
+    height: 25px;
+}
+
+.snackbar {
+    width: 100%;
+}
+
+.snackbar img {
+    height: 20px;
+    width: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-left: 28px;
+    width: 100%;
+    height: 85px;
+}
+
+.container div {
+    display: flex;
+    width: 10%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.container div p {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.container div img {
+    margin-bottom: 8px;
+    width: 25px;
+    height: 25px;
+}
+
+.container div div {
+    width: 90%;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+
+.toggle-container {
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    justify-content: center;
+}
+.toggle-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 550px;
+    height: 65px;
+    border: 2px solid lightgray;
+    border-radius: 14px;
+    padding: 20px;
+}
+
+.toggle-bar__left-pane {
+    margin-left: 0px;
+    width: 30%;
+    border-right: 1px solid lightgray;
+}
+
+.toggle-bar__right-pane  {
+    margin-right: 148px;
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+}
+
+.cards-container {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.cards-container div {
+    width: 23%;
+    height: 350px;
+    border: 15px;
+    position: relative;
+}
+
+.hero-image {
+    width: 100%;
+    height: 67%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.heart {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.cards-container div h1 {
+    font-size: 15px;
+}
+
+.heading {
+    font-weight: 600;
+}
+
+.star {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right: 25px;
+    top: 243px;
+}
+
+.ratings {
+    font-size: 14px;
+    position: absolute;
+    top: 240px;
+    right: 0;
+}
+
+.distance,
+.date {
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.price {
+    margin-top: 10px;
+    font-weight: 200;
+}
+
+.cards-container__card4 .star {
+    right: 34px;
+}
+
