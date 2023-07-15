@@ -250,3 +250,19 @@
     right: 34px;
 }
 
+.cards-container__card10 .star {
+    right: 34px;
+}
+
+@media(min-width: 1400px) {
+    .nav__right-pane {
+        width: 12%;
+    }
+
+    .cards-container div {
+        width: 15%;
+    }
+
+}
+
+
