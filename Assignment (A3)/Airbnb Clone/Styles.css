@@ -14,6 +14,10 @@
     justify-content: space-between;
     padding-left: 45px;
     padding-right: 45px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
 }
 
 .nav__logo svg {
@@ -109,6 +113,10 @@
 
 .snackbar {
     width: 100%;
+    position: sticky;
+    top: 60px;
+    background-color: white;
+    z-index: 1000;
 }
 
 .snackbar img {
